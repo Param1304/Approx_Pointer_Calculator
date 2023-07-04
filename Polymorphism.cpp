@@ -11,7 +11,7 @@ class student
     public:
     int Regno;
     float GP,cp;
-    virtual void display()=0;
+    virtual void display();
 };
 class Physics :public student
 {
